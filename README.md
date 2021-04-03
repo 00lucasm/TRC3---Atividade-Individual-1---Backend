@@ -11,12 +11,12 @@ O objetivo desta atividade é construir uma API simples que persista em banco de
 ## Arquitetura do projeto
 Neste projeto há uma ***Model*** e um ***Controller*** para a entidade **Disciplina**, cada um em seu respectivo diretório em **src**
 ## Rotas
-- ***GET /disciplinas*** : Lista todas as disciplinas cadastradas
-- ***POST /disciplinas*** : Cria disciplinas; As informações recebidas são:
+- **GET /disciplinas** : Lista todas as disciplinas cadastradas
+- **POST /disciplinas** : Cria disciplinas; As informações recebidas são:
 	- "código" - ***number***
 	- "nome" - ***string***
 	- "professor" - ***string***
 	- "departamento" - ***string***
 	- "qtdCreditos"- ***number***
-- ***PUT /disciplinas{id}*** : Atualiza os dados de uma disciplina utilizando o ID da disciplina passado como parâmetro na URL da requisição.
-- ***DELETE /disciplinas{id}*** : Deleta uma disciplina utilizando o ID da disciplina passado como parâmetro na URL da requisição.
+- **PUT /disciplinas{id}** : Atualiza os dados de uma disciplina utilizando o ID da disciplina passado como parâmetro na URL da requisição.
+- **DELETE /disciplinas{id}** : Deleta uma disciplina utilizando o ID da disciplina passado como parâmetro na URL da requisição.
