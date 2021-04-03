@@ -9,7 +9,7 @@ O objetivo desta atividade é construir uma API simples que persista em banco de
 - [Docker](https://docs.docker.com/get-docker/)  
 
 ## Arquitetura do projeto
-Neste projeto há uma ***Model*** e um ***Controller*** para a entidade **Disciplina**, cada um em seu respectivo diretório em **src**
+Neste projeto há uma ***Model*** e um ***Controller*** para a entidade **Disciplina**, cada um em seu respectivo diretório em **src**.
 ## Rotas
 - **GET /disciplinas** : Lista todas as disciplinas cadastradas
 - **POST /disciplinas** : Cria disciplinas; As informações recebidas são:
