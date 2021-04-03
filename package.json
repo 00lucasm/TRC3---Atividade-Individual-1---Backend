@@ -1,0 +1,18 @@
+{
+  "name": "Atividade-Individual-1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Melo-Lucas/TRC3---Atividade-Individual-1---Backend.git",
+  "author": "Melo-Lucas <lucs.r06@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+  	"dev": "nodemon -L src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7",
+    "sucrase": "^3.17.1"
+  }
+}
