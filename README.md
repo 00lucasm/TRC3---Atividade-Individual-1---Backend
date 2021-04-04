@@ -25,5 +25,6 @@ Neste projeto há uma ***Model*** e um ***Controller*** para a entidade **Discip
 - **DELETE /disciplinas{id}** : Deleta uma disciplina utilizando o ID da disciplina passado como parâmetro na URL da requisição.  
 
 ## Utilização da API: requisições e respostas através do Insomnia
-### **Requisição GET:** Nesta requisição não há necessidade de parâmetro na requisição ou informações pelo ***body***. <br> 
+### Requisição GET
+Nesta requisição não há necessidade de parâmetro na requisição ou informações pelo ***body***.
 ![Exemplo de requisição:](./src/assets/images/get_response.png)
