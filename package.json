@@ -6,10 +6,12 @@
   "author": "Melo-Lucas <lucs.r06@gmail.com>",
   "license": "MIT",
   "scripts": {
-  	"dev": "nodemon -L src/server.js"
+    "dev": "nodemon -L src/server.js"
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mongoose": "^5.12.3",
+    "mongoose-auto-increment": "^5.0.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.7",
