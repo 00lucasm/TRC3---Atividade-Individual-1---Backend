@@ -26,6 +26,18 @@ Neste projeto há uma ***Model*** e um ***Controller*** para a entidade **Discip
 
 ## Utilização da API: requisições e respostas através do Insomnia
 ### Requisição GET
-Nesta requisição não há necessidade de parâmetro na requisição ou informações pelo ***body***.<br>
+Nesta requisição não há necessidade de parâmetro na requisição ou informações pelo ***body***.
 ### Resposta GET esperada
 ![Exemplo de requisição:](./src/assets/images/get_response.png)
+### Requisição POST
+Nesta requisição não há necessidade de parâmetro na requisição ou informações pelo ***body***.
+### Resposta POST esperada
+![Exemplo de requisição:](./src/assets/images/post_response.png)
+### Requisição PUT
+Nesta requisição não há necessidade de parâmetro na requisição ou informações pelo ***body***.
+### Resposta PUT esperada
+![Exemplo de requisição:](./src/assets/images/put_response.png)
+### Requisição DELETE
+Nesta requisição não há necessidade de parâmetro na requisição ou informações pelo ***body***.
+### Resposta DELETE esperada
+![Exemplo de requisição:](./src/assets/images/delete_response.png)
