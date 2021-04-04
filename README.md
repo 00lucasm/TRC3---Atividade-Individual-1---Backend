@@ -26,5 +26,6 @@ Neste projeto há uma ***Model*** e um ***Controller*** para a entidade **Discip
 
 ## Utilização da API: requisições e respostas através do Insomnia
 ### Requisição GET
-Nesta requisição não há necessidade de parâmetro na requisição ou informações pelo ***body***.
+Nesta requisição não há necessidade de parâmetro na requisição ou informações pelo ***body***.<br>
+### Resposta GET esperada
 ![Exemplo de requisição:](./src/assets/images/get_response.png)
