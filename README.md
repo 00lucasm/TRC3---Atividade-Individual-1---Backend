@@ -22,7 +22,7 @@ Neste projeto há uma ***Model*** e um ***Controller*** para a entidade **Discip
 ## Utilização da API: requisições e respostas através do Insomnia
 ### Requisição GET
 Nesta requisição não há necessidade de parâmetro na requisição ou informações pelo ***body***.
-### Resposta GET esperada
+### Resposta GET esperada:
 ![Exemplo de requisição:](./src/assets/images/get_response.png)
 ### Requisição POST
 Para fazer a requisição com método POST, é necessário informar os seguintes campos:
@@ -31,13 +31,13 @@ Para fazer a requisição com método POST, é necessário informar os seguintes
 - "professor" - ***string***
 - "departamento" - ***string***
 - "qtdCreditos"- ***number***
-### Resposta POST esperada
+### Resposta POST esperada:
 ![Exemplo de requisição:](./src/assets/images/post_response.png)
 ### Requisição PUT
-Nesta requisição não há necessidade de parâmetro na requisição ou informações pelo ***body***.
-### Resposta PUT esperada
+Para fazer um *update*, basta passar o(s) campo(s) que deseja fazer a atualização e o ID da disciplina através do parâmetro na própria URL 
+### Resposta PUT esperada:
 ![Exemplo de requisição:](./src/assets/images/put_response.png)
 ### Requisição DELETE
-Nesta requisição não há necessidade de parâmetro na requisição ou informações pelo ***body***.
-### Resposta DELETE esperada
+Nesta requisição, basta passar o parâmetro ID da disciplina que deseja ser retirada
+### Resposta DELETE esperada:
 ![Exemplo de requisição:](./src/assets/images/delete_response.png)
